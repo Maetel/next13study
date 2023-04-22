@@ -3,6 +3,10 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: ["picsum.photos"],
+  },
+  reactStrictMode: false,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
